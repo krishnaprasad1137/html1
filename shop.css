@@ -1,0 +1,161 @@
+.bgimg {
+    background-image: url(shop02.img);
+    min-height: 900px;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: -23px;
+  }
+  .A {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: ;
+  }
+  .topnav a {
+
+    float: left;
+    color: #141414;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration-line: underline;
+    font-size: 17px;
+    font-weight: 900;
+    margin-top: -30px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.head{
+    color: rgb(29, 42, 181);
+    font-style: italic;
+    font-size: 40px;
+    
+}
+.scroll{
+  font-size:50px;
+  font-family: georgia;
+  font-style:italic;
+  font-weight:bold;
+  color:purple;
+  text-shadow: 2px 2px 8px #d1caca;
+  padding-bottom: -10px;
+}
+.A{
+    position: relative;
+  text-align: center;
+  color: white;
+}
+  .categories {
+    width: 25%;
+    height: auto;
+    float: right;
+    position: relative;
+  }
+  .cate{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(216, 28, 28);
+    font-weight: 900;
+    text-decoration-line: underline;
+  }
+  .qua {
+    padding: 10px;
+    float: right;
+    margin-top: 0px;
+    
+  }
+  .qua1{
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -10px;
+    color: orangered;
+    text-decoration-line: underline;
+  }
+  .qua2{
+    font-weight: 200;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(93, 117, 191);
+  }
+  .p{
+    font-size: 50px;
+    font-weight: 900;
+    align-items: center;
+    
+
+  }
+  .abc{
+    font-size: 80px;
+    text-indent: 100px;
+    float: left;
+    color: crimson;
+
+  }
+  .abc1{
+    font-size: 80px;
+    text-indent: 400px;
+    float: left;
+    color: darkblue;
+
+  }
+  .abc2{
+    font-size: 80px;
+    text-indent: 400px;
+    float: left;
+    color: forestgreen;
+
+  }
+  .about{
+    font-size: 50px;
+    color: rgb(243, 69, 11);
+    text-decoration-line: underline;
+    font-weight: 700;
+    text-align: center;
+  
+  }
+  .OVERVIEW{
+    font-size: 30px;
+    font-weight: 700;
+    align-items: center;
+    text-indent: 200px;
+  }
+  .OVERVIEW1{
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+    text-indent: 200px;
+    
+  }
+
+  .types{
+    font-size: 30px;
+    font-weight: 700;
+    align-items: center;
+    text-indent: 200px;
+
+  }
+  .types:hover{
+    background-color: #ddd;
+    color: black;
+  }
+  .women {
+    font-size: 40px;
+    font-weight: 700;
+    align-items: center;
+    float: right; 
+  }
+  .women1 {
+    font-size: 30px;
+    font-weight: 700;
+    align-items: center;
+    text-indent: 200px;
+    float: right;
+
+  }

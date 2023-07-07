@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Collage</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        .Name {
+            color: brown;
+            background-color: aqua;
+            text-align: center;
+            font-size: 50px;
+            padding: 5px;
+            margin-bottom: 0%;
+
+        }
+
+        h3 {
+            color: rgb(209, 126, 126);
+            text-align: center;
+            background-color: rgb(171, 226, 199);
+            line-height: 0px;
+        }
+
+        .Address {
+            color: blueviolet;
+            padding: 5px;
+            border: 5px solid black;
+            border-radius: 10px;
+            margin: 0%;
+        }
+
+        .About {
+            color: rgb(210, 75, 145);
+            padding: 0px;
+            margin: 50px;
+            border: 5px solid black;
+            border-radius: 10px;
+            margin-top: 0%;
+        }
+
+        .Student {
+            border: 5px solid black;
+
+            border-radius: 5px;
+
+        }
+
+        ul {
+            list-style-type: none;
+            overflow: hidden;
+            background-color: rgb(156, 156, 188);
+        }
+
+        li a {
+            display: block;
+            color: rgb(204, 236, 220);
+            padding: 20px;
+            text-decoration: none;
+
+        }
+
+        li a:hover {
+            background-color: rgb(132, 138, 136);
+        }
+
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            background-color: rgb(227, 159, 159);
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section id="Home">
+        <div class="Name">
+            <h1><b>MNR College</b></h1>
+        </div>
+        <h3>recognised by govt.of india</h3>
+    </section>
+    <ul>
+        <li><b><a href="#Home">Home</a></b></li>
+        <li><b><a href="#Address">Address</a></b></li>
+        <li><b><a href="#Courses">Courses</a></b></li>
+        <li><b><a href="#Student">Student Form</a></b></li>
+    </ul>
+    <div data-aos="flip-left">
+        <img src="coll.img" width="100%" height="400px">
+        <section id="Address">
+            <div class="Address">
+                <h1>
+                    <center>Address</center>
+                </h1>
+                <h3>
+                    <p>ADDRESS. MNR Educational Trust, 2-23B/350, Bhagyanagar Phase-III, Near HMT Hills Colony, Opp:
+                        JNTU, Kukatpally, Hyderabad</p>
+                </h3>
+            </div>
+        </section>
+        <h1>
+            <center>courses</center>
+        </h1>
+        <section id="Courses">
+            <table style="width: 100%;">
+                <tr>
+                    <th>CSE</th>
+                    <td style="width: 50%;">
+                        <center>60 seats</center>
+                    </td>
+                </tr>
+                <tr>
+                    <th>MEC</th>
+                    <td style="width: 50%;">
+                        <center>60 seats</center>
+                    </td>
+                </tr>
+                <tr>
+                    <th>ECE</th>
+                    <td style="width: 50%;">
+                        <center>60 seats</center>
+                    </td>
+                </tr>
+            </table>
+        </section><br><br>
+        <h1>Student Form</h1>
+        <br>
+        <section id="Student">
+            <form>
+                first Name:<input type="text" placeholder="name"><br><br>
+                last Name:<input type="text" placeholder="name"><br><br>
+                Email:<input type="text" placeholder="mail"><br><br>
+                maobil Number:<input type="number"><br><br>
+                Gender:<input type="radio" name="gender">male<input type="radio" name="gender">female<br><br>
+                submit here: <button>SUBMIT</button>
+
+
+            </form>
+        </section>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+</body>
+
+</html>

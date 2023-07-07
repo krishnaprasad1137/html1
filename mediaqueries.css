@@ -1,0 +1,21 @@
+body{
+    background-color: chartreuse;
+    text-align: center;
+}
+@media screen and (min-width:0px) and (max-width:400px) {
+    body {
+        color: rgb(179, 35, 35) !important;
+        background-color:yellow !important;
+    }
+    
+}
+@media screen and (min-width:401px) and (max-width:600px) {
+    body{
+        color: rgb(83, 83, 180);
+        background-color: rgb(205, 21, 125);
+        
+    
+    }
+    
+}
+

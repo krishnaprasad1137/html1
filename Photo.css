@@ -1,0 +1,58 @@
+
+
+.navbar h2{
+    color: white;
+    font-weight: 600;
+}
+.banner-section-bg-container {
+ 
+    height: 100vh;
+}
+
+.banner-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.banner-caption {
+    color: #f5f7fa;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.custom-button {
+    color: rgb(63, 14, 238);
+    background-color: #2dd000;
+    width: 150px;
+    height: 50px;
+    border-width: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    border: 20px;
+    
+
+}
+
+.custom-button:hover {
+    background-color: lightpink;
+}
+.flex-box{
+    width: 10px;
+}
+.middle {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.nav-item:hover {
+    background-color: crimson;
+} 

@@ -1,0 +1,29 @@
+.container{
+    text-align: center;
+    background-size: cover;
+    height: 100vh;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    background-image: url(./page.img)
+
+}
+h2{
+    text-align: left;
+    font-weight: 500;
+}
+h1{
+    font-weight: 700;
+}
+.container P{
+    font-size: 20px;
+}
+button{
+    background-color: orange;
+    color: white;
+    width: 80px;
+    font-size: 20px;
+
+}
+.underline{
+    text-decoration: underline;
+}

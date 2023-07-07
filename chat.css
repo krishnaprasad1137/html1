@@ -1,0 +1,33 @@
+.bg{
+    background-image: url(./chat.img);
+    height: 80vh;
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;    
+    
+}
+.head{
+    color: white;
+    text-align: center;
+    font-style: "roboto";
+    background-color: #323f4b;
+    padding: 10px;
+}
+.message-send{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: right;
+    border-radius: 20px;
+    margin: 10px;
+}
+.message-recive{
+    background-color: #323f4b;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    border-radius: 20px;
+    margin: 10px;
+}
+

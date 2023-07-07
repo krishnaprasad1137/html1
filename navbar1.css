@@ -1,0 +1,26 @@
+.Navbarr 
+{
+    background-color: rgb(156, 177, 234);
+    font-size: 30px;
+ 
+}
+.Navbarr a
+{
+    color:  #09f959;
+}
+.banner
+{
+    background-color:  rgb(109, 59, 218);
+}
+.banner h3 {
+    margin: auto;
+    color: rgb(240, 170, 20);   
+}
+@media screen and (max-width:600px) {
+    .banner h3{
+        text-align: center;
+    }
+}
+.cards{
+    height: 260px;
+}

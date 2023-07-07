@@ -1,0 +1,40 @@
+.head{
+    color: rgb(29, 42, 181);
+    font-style: italic;
+    font-size: 40px;
+    background-color: aquamarine;
+    padding: 40px;
+    text-align: center;
+}
+.A {
+    background-image: url(shop02.img);
+    height: 900px; 
+    width: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .A {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  .topnav {
+    overflow: hidden;
+  }
+  .topnav a {
+
+    float: left;
+    color: #141414;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration-line: underline;
+    font-size: 17px;
+    font-weight: 900;
+    margin-top: -30px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }

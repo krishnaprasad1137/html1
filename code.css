@@ -1,0 +1,20 @@
+.code{
+    background-image: url(./code.img);
+    width: 30vw;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.inside{
+    color: white;
+    border: 4px solid rgb(46, 224, 46);
+    width: 200px;
+    height: 200px;
+}
+.inside p{
+    font-weight: 600;
+    font-size: 30px;
+}
